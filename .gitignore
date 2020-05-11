@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/c,python,pycharm,codeblocks
 # Edit at https://www.gitignore.io/?templates=c,python,pycharm,codeblocks
-
+venv/
+.idea/
 ### C ###
 # Prerequisites
 *.d

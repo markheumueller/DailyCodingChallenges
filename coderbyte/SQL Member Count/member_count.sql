@@ -1,0 +1,1 @@
+SELECT ReportsTo, COUNT(ReportsTo) as Members, ROUND(AVG(Age),0) as "Average Age" FROM maintable_F9P69 WHERE ReportsTo IS NOT NULL GROUP BY ReportsTo
